@@ -1,0 +1,56 @@
+/* Setzt die Hintergrundfarbe der gesamten Seite und vergrößert die Schriftgröße */
+body {
+    background-color: rgb(249, 242, 200);
+    font-size: larger;
+}
+
+/* Fügt eine doppelte Umrandung um die h1-Überschriften hinzu */
+h1 {
+    border-style: double;
+}
+
+/* Definiert das Styling der Buttons: Größe, abgerundete Ecken und Hintergrundfarbe */
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    background-color: bisque;
+}
+
+/* Ändert die Hintergrundfarbe und die Textfarbe des Buttons beim Darüberfahren mit der Maus */
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* Legt die Größe des Logos fest */
+.tgmLogo {
+    height: 100px;
+    width: 150px;
+}
+
+/* Styling für das Navigationsmenü: Entfernt Aufzählungszeichen, setzt Ränder und versteckt Überlauf */
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    border-style: groove;
+    border-width: 6px;
+}
+
+/* Definiert das Styling der Listenelemente im Navigationsmenü: Ausrichtung, Abstände und Anzeige */
+.navigation li {
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Styling für das Box-Element: Setzt einen Rahmen, einen rechten Rand und eine Hintergrundfarbe */
+.box1 {
+    border-style: solid;
+    border-width: 4px;
+    margin-right: 60%;
+    background-color: antiquewhite;
+}

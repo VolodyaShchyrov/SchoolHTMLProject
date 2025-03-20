@@ -1,0 +1,76 @@
+/* Setzt die Hintergrundfarbe der gesamten Seite und vergrößert die Schriftgröße */
+body {
+    background-color: rgb(249, 242, 200);
+    font-size: larger;
+}
+
+/* Fügt eine doppelte Umrandung um die h2-Überschriften hinzu */
+h2 {
+    border-style: double;
+}
+
+/* Legt die Größe des Logos fest */
+.tgmLogo {
+    height: 100px;
+    width: 150px;
+}
+
+/* Setzt die Rahmenfarbe für das erste Fieldset auf Schwarz */
+#fieldset_1 {
+    border-color: black;
+}
+
+/* Setzt die Rahmenfarbe für das zweite Fieldset auf Schwarz */
+#fieldset_2 {
+    border-color: black;
+}
+
+/* Definiert das Styling für den Absenden-Button (submit button): 
+   Größe, abgerundete Ecken und Hintergrundfarbe */
+#sub_butt {
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    background-color: bisque;
+}
+
+/* Styling für das Navigationsmenü: Entfernt Aufzählungszeichen, 
+   setzt Ränder und versteckt Überlauf */
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    border-style: groove;
+    border-width: 6px;
+}
+
+/* Definiert das Styling der Listenelemente im Navigationsmenü: 
+   Positionierung, Ausrichtung und Abstand */
+.navigation li {
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Definiert das Styling für allgemeine Buttons: 
+   Größe, abgerundete Ecken und Hintergrundfarbe */
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    background-color: bisque;
+}
+
+/* Ändert die Hintergrund- und Textfarbe des Buttons beim Darüberfahren mit der Maus */
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* Ändert die Hintergrund- und Textfarbe des Absenden-Buttons beim Darüberfahren mit der Maus */
+#sub_butt:hover {
+    background-color: brown;
+    color: white;
+}

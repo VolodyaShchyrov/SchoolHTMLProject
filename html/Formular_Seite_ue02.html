@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formular_css.css">
+    <title>Formularseite</title>
+</head>
+<body>
+    
+    <div class="navigation">
+        <ul>
+            <li><a href="https://www.tgm.ac.at/"><img class="tgmLogo" src="../img/TGM_Logo.svg.png" alt="TGM LOGO"></img></a></li>
+            <li><a href="Formular_Seite_ue02.html" ><button>Anmeldung</button></a></li>
+            <li><a href="../index.html" ><button>Homepage</button></a></li>
+            <li><a href="sonstige_Seite.html" ><button>Sonstige</button></a></li>
+        
+        </ul>
+        <h2>Kontaktformular</h2>
+        
+        
+
+    </div>
+    <label for="Hauptfarmular">
+    <fieldset name="fieldset_1" id="fieldset_1">
+        <legend>Deine Privatinfo</legend>
+    <form action="../index.html" id="from_myInfo">
+        Klasse: <select>
+            <option>1AHIT</option>
+            <option>1BHIT</option>
+            <option>1CHIT</option>
+            <option>1DHIT</option>
+            
+            </select>
+            <br>
+        Vorname: <input type="text" name="nameEingabe"><br>
+        Nachname: <input type="text" name="nameEingabe">
+        <br>
+        Geburtstag: <input type="date" name="date_year"><br>
+        <hr>
+        Geschlecht: <br>
+        <input type="radio" name="geschlecht">m
+        <input type="radio" name="geschlecht">w
+        <input type="radio" name="geschlecht">d
+        <br>
+        <hr>
+        Email: <input type="email" name="e_mail" placeholder="mmustermann@gmail.com"><br>
+        Password: <input type="password" name="pass_acc"><br>
+        Telefon Nummer: <input type="tel" name="tel_num" value="+43 "><br>
+       
+</form>
+</label>
+</fieldset>
+<fieldset name="fieldset_2" id="fieldset_2">
+    <legend>Diene Anmerkungen</legend>
+<label for="Nebenformular">
+<form action="../index.html" id="sekundar_info">
+    <hr>
+        Vorhandenden: 
+        <input type="checkbox" name="chek_box">Laptop
+        <input type="checkbox" name="chek_box">Handy 
+        <input type="checkbox" name="chek_box">PC 
+        <br>
+        Anmerkungen:
+        <textarea name="textarea"></textarea>
+        <hr>
+        <br>
+        <input id="sub_butt" type="submit"><br>
+
+        
+        
+         
+</form>
+</label>
+</fieldset>
+
+   
+</body>
+
+
+</html>
