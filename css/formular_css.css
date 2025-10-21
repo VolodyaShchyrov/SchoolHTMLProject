@@ -1,76 +1,178 @@
-/* Setzt die Hintergrundfarbe der gesamten Seite und vergrößert die Schriftgröße */
+@media screen and (min-width: 580px)
+{
+    /* Setzt die Hintergrundfarbe der gesamten Seite und vergrößert die Schriftgröße */
 body {
-    background-color: rgb(249, 242, 200);
-    font-size: larger;
+    background-color: rgb(249, 242, 200); /* Hintergrundfarbe setzen */
+    font-size: larger; /* Schriftgröße vergrößern */
 }
 
 /* Fügt eine doppelte Umrandung um die h2-Überschriften hinzu */
 h2 {
-    border-style: double;
+    border-style: double; /* Rahmenstil auf doppelt setzen */
 }
 
 /* Legt die Größe des Logos fest */
 .tgmLogo {
-    height: 100px;
-    width: 150px;
+    height: 100px; /* Höhe des Logos */
+    width: 150px; /* Breite des Logos */
 }
 
 /* Setzt die Rahmenfarbe für das erste Fieldset auf Schwarz */
 #fieldset_1 {
-    border-color: black;
+    border-color: black; /* Rahmenfarbe auf Schwarz setzen */
 }
 
 /* Setzt die Rahmenfarbe für das zweite Fieldset auf Schwarz */
 #fieldset_2 {
-    border-color: black;
+    border-color: black; /* Rahmenfarbe auf Schwarz setzen */
 }
 
 /* Definiert das Styling für den Absenden-Button (submit button): 
    Größe, abgerundete Ecken und Hintergrundfarbe */
 #sub_butt {
-    height: 50px;
-    width: 100px;
-    border-radius: 20%;
-    background-color: bisque;
+    height: 50px; /* Höhe des Buttons festlegen */
+    width: 100px; /* Breite des Buttons festlegen */
+    border-radius: 20%; /* Abgerundete Ecken mit 20% Radius */
+    background-color: bisque; /* Hintergrundfarbe des Buttons */
 }
 
 /* Styling für das Navigationsmenü: Entfernt Aufzählungszeichen, 
    setzt Ränder und versteckt Überlauf */
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    border-style: groove;
-    border-width: 6px;
-}
-
-/* Definiert das Styling der Listenelemente im Navigationsmenü: 
-   Positionierung, Ausrichtung und Abstand */
-.navigation li {
-    float: left;
-    text-align: center;
-    display: block;
-    padding: 16px;
-    text-decoration: none;
+   .navigation{
+    
+    border-style: solid;
+    border-width: 3px;
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 1%;
+    justify-items: normal;
+    align-items: top;
+    gap: 5%;
+    
 }
 
 /* Definiert das Styling für allgemeine Buttons: 
    Größe, abgerundete Ecken und Hintergrundfarbe */
 button {
-    height: 50px;
-    width: 100px;
-    border-radius: 20%;
-    background-color: bisque;
-}
-
-/* Ändert die Hintergrund- und Textfarbe des Buttons beim Darüberfahren mit der Maus */
-button:hover {
-    background-color: brown;
-    color: white;
-}
+        margin-top: 10%;
+        height: 70px; /* Höhe des Buttons festlegen */
+        width: 170px; /* Breite des Buttons festlegen */
+        border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+        background-color: bisque; /* Hintergrundfarbe des Buttons */
+        transition: transform 0.4s ease-in-out;
+    }
+    
+    /* Ändert die Hintergrundfarbe und die Textfarbe des Buttons beim Darüberfahren mit der Maus */
+    button:hover {
+        background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
+        color: white; /* Textfarbe beim Hover-Effekt */
+        transform: scale(1.12);
+        
+        
+    }
 
 /* Ändert die Hintergrund- und Textfarbe des Absenden-Buttons beim Darüberfahren mit der Maus */
 #sub_butt:hover {
-    background-color: brown;
-    color: white;
+    background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
+    color: white; /* Neue Textfarbe beim Hover-Effekt */
 }
+.btn{
+    font-size: larger;
+}
+}
+
+
+
+@media screen and (max-width: 579px)
+{
+
+    body {
+        background-color: rgb(249, 242, 200); /* Hintergrundfarbe setzen */
+        font-size: larger; /* Schriftgröße vergrößern */
+    }
+    
+    /* Fügt eine doppelte Umrandung um die h1-Überschriften hinzu */
+    
+    
+    /* Definiert das Styling der Buttons: Größe, abgerundete Ecken und Hintergrundfarbe */
+   button {
+        margin-top: 10%;
+        height: 70px; /* Höhe des Buttons festlegen */
+        width: 170px; /* Breite des Buttons festlegen */
+        border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+        background-color: bisque; /* Hintergrundfarbe des Buttons */
+        transition: transform 0.4s ease-in-out;
+    }
+    
+    /* Ändert die Hintergrundfarbe und die Textfarbe des Buttons beim Darüberfahren mit der Maus */
+    button:hover {
+        background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
+        color: white; /* Textfarbe beim Hover-Effekt */
+        transform: scale(1.12);
+        
+        
+    }
+    
+    /* Legt die Größe des Logos fest */
+    .tgmLogo {
+        height: 100px; /* Höhe des Logos */
+        width: 150px; /* Breite des Logos */
+    }
+    
+    /* Styling für das Navigationsmenü: Entfernt Aufzählungszeichen, setzt Ränder und versteckt Überlauf */
+      .navigation{
+        border-style: solid;
+        border-width: 3px;
+        background-color: antiquewhite;
+        display: flex;
+        margin-top: 1%;
+        justify-items: normal;
+        align-items: center;
+        gap: 5%;
+        flex-direction: column;
+        width: 120%;
+        min-width: 380px;
+        max-width: 380px;
+        
+  
+    }
+    /* Styling für das Box-Element: Setzt einen Rahmen, einen rechten Rand und eine Hintergrundfarbe */
+    
+
+    .tgmLogo {
+        height: 100px; /* Höhe des Logos */
+        width: 150px; /* Breite des Logos */
+    }
+
+ .content{
+    display: flex;
+ } 
+
+
+.button {
+    margin-top: 10%;
+    height: 15px; /* Höhe des Buttons festlegen */
+    width: 37px; /* Breite des Buttons festlegen */
+    border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+    background-color: bisque; /* Hintergrundfarbe des Buttons */
+}
+.btn{
+    font-size: larger;
+}
+
+
+
+ .navigation{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    justify-items: normal;
+    align-items: top;
+    gap: 5%;
+ }
+
+ 
+
+}
+

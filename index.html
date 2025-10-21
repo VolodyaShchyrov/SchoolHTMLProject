@@ -7,18 +7,18 @@
 
     </head>
     <body>
-        <div class="navigation">
-            <ul>
-                <li><a href="https://www.tgm.ac.at/"><img class="tgmLogo" src="img/TGM_Logo.svg.png" alt="TGM LOGO"></img></a></li>
-                <li><a href="html/Formular_Seite_ue02.html" ><button>Anmeldung</button></a></li>
-                <li><a href="index.html" ><button>Homepage</button></a></li>
-                <li><a href="html/sonstige_Seite.html" ><button>Sonstige</button></a></li>
-            
-            </ul>
-            
-            
+        <header>
+           
+            <div class="navigation">
+                
+                <a href="https://www.tgm.ac.at/"><img class="tgmLogo" src="img/TGM_Logo.svg.png" alt="TGM LOGO"></img></a>
+                <a href="html/Formular_Seite_ue02.html" ><button class="btn">Anmeldung</button></a>
+                <a href="index.html" ><button class="btn">Homepage</button></a>
+                <a href="html/sonstige_Seite.html" ><button class="btn">Sonstige</button></a>
+                <a href="html/ProjektSeite.html" ><button class="btn">Meine Projekte</button></a>
+            </div>
 
-        </div>
+        </header>
 
 
 
@@ -44,14 +44,19 @@
        
         <br>
 
-        <h3>Meine Hobbies sind</h3>
+    <div class="flexbox1">
+
+        <div class="flesEl1">
+            <h3>Meine Hobbies sind</h3>
         <p>
             <ul>
                 <li>Sport wie: Baskettball, Volleyball</li>
-                <li>Computerspiele z.B: Valorant, Dota 2, Warhammer 40000, World of Tanks</li>
+                <li>Computerspiele z.B: Valorant, Dota 2</li>
                 <li>Etwas Neues lernen</li>
                 <li>Filme schauen</li>
             </ul>
+        </div>
+        <div class="flexEl2">
             <h3>Mein Lieblingsfilme</h3>
 
             <ol type="1">
@@ -59,29 +64,28 @@
                 <li>Kung fu Panda 1-3</li>
             </ol>
         </p>
+        </div>
+    </div>
         <br>
         <br>
-
-        <table border="1">
-            <tbody>
-                <tr ><td colspan="3">Meine Lieblingsspeise</td></tr>
-            </tbody>
+        <h3 class="speise">Meine Lieblingsspeise</h3>
+        <div class="flexbox2">
             
-            <tr>
-                <td><b>Pizza</b></td>
-                <td><p>Wichtigste:</p> <p>Teig</p> <p>Tomatensouce</p> <p>Käse</p></td>
-                <td><img src="img/Pizza_img.jpeg" width="250px" height="200px" alt="Photo of pizza"></td>
+            <div class="flexEl3">
+                <h3>Pizza</h3>
+                <p>Wichtigste:</p> <p>Teig</p> <p>Tomatensouce</p> <p>Käse</p>
+                <img src="img/Pizza_img.jpeg" width="250px" height="200px" alt="Photo of pizza">
                 
-            </tr>
-            <tr>
-                <td><b>Asiatische Wok Nudeln</b></td>
-                <td><p>Wichtigste:</p> <p>Nudeln</p> <p>Gemüse</p> <p>Fleisch</p></td>
-                <td><img src="img/Wok_img.webp" width="250px" height="200px" alt="Photo of Wok"></td>
-            </tr>
+            </div>
+            <div class="flexEl4">
+                <h3>Asiatische Wok Nudeln</h3>
+                <p>Wichtigste:</p> <p>Nudeln</p> <p>Gemüse</p> <p>Fleisch</p>
+                <img src="img/Wok_img.webp" width="250px" height="200px" alt="Photo of Wok">
+            </div>
             
 
             
-        </table>
+        </div>
         <hr>
         <br>
         

@@ -1,0 +1,8 @@
+body {
+  background-color: #fff;
+  margin: 20px;
+}
+button:hover {
+  box-shadow: 2px 2px 0px #000;
+  font-weight: 500;
+}

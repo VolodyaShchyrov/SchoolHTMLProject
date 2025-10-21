@@ -29,27 +29,8 @@ body {
     font-size: larger; /* Schriftgröße vergrößern */
 }
 
-/* Fügt eine doppelte Umrandung um die h1-Überschriften hinzu */
 
 
-/* Definiert das Styling der Buttons: Größe, abgerundete Ecken und Hintergrundfarbe */
-button {
-        margin-top: 10%;
-        height: 70px; /* Höhe des Buttons festlegen */
-        width: 170px; /* Breite des Buttons festlegen */
-        border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
-        background-color: bisque; /* Hintergrundfarbe des Buttons */
-        transition: transform 0.4s ease-in-out;
-    }
-    
-    /* Ändert die Hintergrundfarbe und die Textfarbe des Buttons beim Darüberfahren mit der Maus */
-    button:hover {
-        background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
-        color: white; /* Textfarbe beim Hover-Effekt */
-        transform: scale(1.12);
-        
-        
-    }
 
 /* Legt die Größe des Logos fest */
 .tgmLogo {
@@ -75,7 +56,116 @@ button {
 
 .btn{
     font-size: larger;
+    margin-top: 10%;
+        height: 70px; /* Höhe des Buttons festlegen */
+        width: 170px; /* Breite des Buttons festlegen */
+        border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+        background-color: bisque; /* Hintergrundfarbe des Buttons */
+        transition: transform 0.4s ease-in-out;
+    
 }
+
+
+.card{
+    background-color: beige;
+}
+.btn2{
+    font-size:small;
+    margin-bottom: 3%;
+        height: 50px; /* Höhe des Buttons festlegen */
+        width: 150px; /* Breite des Buttons festlegen */
+        border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+        background-color: bisque; /* Hintergrundfarbe des Buttons */
+        transition: transform 0.4s ease-in-out;
+}
+
+.btn:hover{
+    background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
+        color: white; /* Textfarbe beim Hover-Effekt */
+        transform: scale(1.12);
+}
+.btn2:hover{
+    background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
+        color: white; /* Textfarbe beim Hover-Effekt */
+        transform: scale(1.12);
+}
+
+
+.pBox{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    justify-items: center;
+    
+    
+}
+
+.w-class {
+     display: flex;
+    flex-direction: column;     /* элементы идут вниз */
+    justify-content: center;    /* центр по вертикали */
+    align-items: center;        /* центр по горизонтали */
+
+    background-color: antiquewhite;
+    width: 500px;
+    border-radius: 10%;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;                 
+}
+
+.w-class img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    max-height: 200px;            /* не больше 70% высоты контейнера */
+}
+.w-class p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-class {
+    display: flex;
+    flex-direction: column;     /* элементы идут вниз */
+    justify-content: center;    /* центр по вертикали */
+    align-items: center;        /* центр по горизонтали */
+
+    background-color: antiquewhite;
+    width: 500px;
+    border-radius: 10%;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;                  /* небольшой промежуток между текстом и картинкой */
+}
+
+.p-class p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-class img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    max-height: 200px;          /* ограничиваем размер картинки */
+}
+
+
+
+
+
+
+
+
 
 }
 
@@ -150,6 +240,10 @@ button {
 .btn{
     font-size: larger;
 }
+.btn2{
+    font-size: larger;
+}
+
 
 
 

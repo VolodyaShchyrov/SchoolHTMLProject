@@ -1,56 +1,281 @@
 /* Setzt die Hintergrundfarbe der gesamten Seite und vergrößert die Schriftgröße */
-body {
-    background-color: rgb(249, 242, 200);
+
+@media screen and (min-width: 580px)
+{
+
+    .btn{
     font-size: larger;
+    }
+
+body {
+    background-color: rgb(249, 242, 200); /* Hintergrundfarbe setzen */
+    font-size: larger; /* Schriftgröße vergrößern */
 }
 
 /* Fügt eine doppelte Umrandung um die h1-Überschriften hinzu */
 h1 {
-    border-style: double;
+    border-style: double; /* Rahmenstil auf doppelt setzen */
 }
 
 /* Definiert das Styling der Buttons: Größe, abgerundete Ecken und Hintergrundfarbe */
-button {
-    height: 50px;
-    width: 100px;
-    border-radius: 20%;
-    background-color: bisque;
-}
-
-/* Ändert die Hintergrundfarbe und die Textfarbe des Buttons beim Darüberfahren mit der Maus */
-button:hover {
-    background-color: brown;
-    color: white;
-}
+    button {
+        margin-top: 10%;
+        height: 70px; /* Höhe des Buttons festlegen */
+        width: 170px; /* Breite des Buttons festlegen */
+        border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+        background-color: bisque; /* Hintergrundfarbe des Buttons */
+        transition: transform 0.4s ease-in-out;
+    }
+    
+    /* Ändert die Hintergrundfarbe und die Textfarbe des Buttons beim Darüberfahren mit der Maus */
+    button:hover {
+        background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
+        color: white; /* Textfarbe beim Hover-Effekt */
+         transform: scale(1.12);
+        
+        
+    }
 
 /* Legt die Größe des Logos fest */
 .tgmLogo {
-    height: 100px;
-    width: 150px;
+    height: 100px; /* Höhe des Logos */
+    width: 150px; /* Breite des Logos */
 }
 
 /* Styling für das Navigationsmenü: Entfernt Aufzählungszeichen, setzt Ränder und versteckt Überlauf */
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    border-style: groove;
+.navigation{
+    
+    border-style: solid;
+    border-width: 3px;
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 1%;
+    justify-items: normal;
+    align-items: top;
+    gap: 5%;
+    
+}
+/* Styling für das Box-Element: Setzt einen Rahmen, einen rechten Rand und eine Hintergrundfarbe */
+.box1 {
+    border-style: solid; /* Setzt den Rahmenstil auf "solid" */
+    border-width: 4px; /* Rahmenbreite festlegen */
+    margin-right: 60%; /* Rechten Außenabstand auf 60% setzen */
+    background-color: antiquewhite; /* Hintergrundfarbe festlegen */
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+    margin-bottom: 5%;
+}
+
+.speise{
+    margin-left:5%;
+}
+
+.flexbox1{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: normal;
+    border-style:dotted;
+    border-radius: 12px;
+    border-width: 6px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: antiquewhite;
+    max-width: 70%;
+    margin-left: 4%;
+    
+    
+}
+
+.flesEl1{
+    border-right-style:dotted;
+    padding-right: 20%;
+    margin-right: 36%;
     border-width: 6px;
 }
 
-/* Definiert das Styling der Listenelemente im Navigationsmenü: Ausrichtung, Abstände und Anzeige */
-.navigation li {
-    float: left;
-    text-align: center;
-    display: block;
-    padding: 16px;
-    text-decoration: none;
+.flexbox2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: normal;
+    border-style:dotted;
+    border-width: 6px;
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: antiquewhite;
+    max-width: 70%; 
+    margin-left: 4%;
+    
 }
 
-/* Styling für das Box-Element: Setzt einen Rahmen, einen rechten Rand und eine Hintergrundfarbe */
-.box1 {
-    border-style: solid;
-    border-width: 4px;
-    margin-right: 60%;
+.flexEl4{
+    padding-left: 17.65%;
+    border-width: 6px;
+    border-left-style:dotted;
+}
+}
+
+@media screen and (max-width: 579px)
+{
+
+    body {
+        background-color: rgb(249, 242, 200); /* Hintergrundfarbe setzen */
+        font-size: larger; /* Schriftgröße vergrößern */
+    }
+    
+    /* Fügt eine doppelte Umrandung um die h1-Überschriften hinzu */
+    h1 {
+        border-style: double; /* Rahmenstil auf doppelt setzen */
+    }
+    
+    /* Definiert das Styling der Buttons: Größe, abgerundete Ecken und Hintergrundfarbe */
+    button {
+        margin-top: 10%;
+        height: 70px; /* Höhe des Buttons festlegen */
+        width: 170px; /* Breite des Buttons festlegen */
+        border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+        background-color: bisque; /* Hintergrundfarbe des Buttons */
+        transition: transform 0.4s ease-in-out;
+    }
+    
+    /* Ändert die Hintergrundfarbe und die Textfarbe des Buttons beim Darüberfahren mit der Maus */
+    button:hover {
+        background-color: brown; /* Neue Hintergrundfarbe beim Hover-Effekt */
+        color: white; /* Textfarbe beim Hover-Effekt */
+        transform: scale(1.12);
+        
+        
+    }
+    
+    
+    
+    /* Legt die Größe des Logos fest */
+    .tgmLogo {
+        height: 100px; /* Höhe des Logos */
+        width: 150px; /* Breite des Logos */
+    }
+    
+    /* Styling für das Navigationsmenü: Entfernt Aufzählungszeichen, setzt Ränder und versteckt Überlauf */
+    .navigation{
+        border-style: solid;
+        border-width: 3px;
+        background-color: antiquewhite;
+        display: flex;
+        margin-top: 1%;
+        justify-items: normal;
+        align-items: center;
+        gap: 5%;
+        flex-direction: column;
+        width: 120%;
+        min-width: 380px;
+        max-width: 380px;
+        
+  
+    }
+ 
+    /* Styling für das Box-Element: Setzt ein   en Rahmen, einen rechten Rand und eine Hintergrundfarbe */
+    .box1 {
+    display: flex;
+    border-style: solid; /* Setzt den Rahmenstil auf "solid" */
+    border-width: 4px; /* Rahmenbreite festlegen */
+    margin-right: 5%; /* Rechten Außenabstand auf 5% setzen */
+    background-color: antiquewhite; /* Hintergrundfarbe festlegen */
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5%;
+    min-width: 100%;
+    max-width: 60%
+    
+}
+
+.speise{
+    margin-left:5%;
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: normal;
+    border-style:dotted;
+    border-radius: 12px;
+    border-width: 6px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+    padding-right: 10%;
+    padding-left: 10%;
     background-color: antiquewhite;
+    max-width: 70%;
+    margin-left: 4%;
+    
+    
+}
+
+.flexEl2{
+    border-top-style: dotted;
+    border-width: 6px;
+
+}
+
+
+.flexbox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: normal;
+    border-style:dotted;
+    border-width: 6px;
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: antiquewhite;
+    max-width: 70%; 
+    margin-left: 4%;
+    
+}
+
+.flexEl4{
+    padding-left: 17.65%;
+    border-width: 6px;
+    margin-top: 4%;
+    border-top-style:dotted;
+}
+
+    .tgmLogo {
+        height: 100px; /* Höhe des Logos */
+        width: 150px; /* Breite des Logos */
+    }
+
+ .content{
+    display: flex;
+ } 
+
+
+.button {
+    margin-top: 10%;
+    height: 15px; /* Höhe des Buttons festlegen */
+    width: 37px; /* Breite des Buttons festlegen */
+    border-radius: 8%; /* Abgerundete Ecken mit 20% Radius */
+    background-color: bisque; /* Hintergrundfarbe des Buttons */
+}
+.btn{
+    font-size: larger;
+}
+
+.box1 {
+    border-style: solid; /* Setzt den Rahmenstil auf "solid" */
+    border-width: 4px; /* Rahmenbreite festlegen */
+    margin-right: 60%; /* Rechten Außenabstand auf 60% setzen */
+    background-color: antiquewhite; /* Hintergrundfarbe festlegen */
+}
+
+ 
+
+ 
+
 }
