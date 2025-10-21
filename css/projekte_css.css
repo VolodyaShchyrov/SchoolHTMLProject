@@ -214,6 +214,8 @@ body {
         margin-top: 1%;
         justify-items: normal;
         align-items: center;
+        flex-wrap: wrap;
+        
         gap: 5%;
         
     }
@@ -263,6 +265,75 @@ body {
         
   
     }
+
+    .pBox{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.w-class {
+     display: flex;
+    flex-direction: column;     /* элементы идут вниз */
+    justify-content: center;    /* центр по вертикали */
+    align-items: center;        /* центр по горизонтали */
+
+    background-color: antiquewhite;
+    width: 500px;
+    border-radius: 10%;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;                 
+}
+
+.w-class img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    max-height: 200px;            /* не больше 70% высоты контейнера */
+}
+.w-class p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-class {
+    display: flex;
+    flex-direction: column;     /* элементы идут вниз */
+    justify-content: center;    /* центр по вертикали */
+    align-items: center;        /* центр по горизонтали */
+
+    background-color: antiquewhite;
+    width: 500px;
+    border-radius: 10%;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;                  /* небольшой промежуток между текстом и картинкой */
+}
+
+.p-class p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-class img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    max-height: 200px;          /* ограничиваем размер картинки */
+}
 
  
 
