@@ -1,98 +1,171 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/index.css">
+<html lang="de">
 
-    </head>
-    <body>
-        <header>
-           
-            <div class="navigation">
-                
-                <a href="https://www.tgm.ac.at/"><img class="tgmLogo" src="img/TGM_Logo.svg.png" alt="TGM LOGO"></img></a>
-                <a href="html/Formular_Seite_ue02.html" ><button class="btn">Anmeldung</button></a>
-                <a href="index.html" ><button class="btn">Homepage</button></a>
-                <a href="html/sonstige_Seite.html" ><button class="btn">Sonstige</button></a>
-                <a href="html/ProjektSeite.html" ><button class="btn">Meine Projekte</button></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shchyrov_Formular</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/TGM_Logo.svg.png" alt="TGM Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#form">Kontakt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projekte</a></li>
+                </ul>
             </div>
-
-        </header>
-
-
-
-        <h1>Volodymyr Shchyrov</h1>
-        <br>
-        <br>
-        <br>
-        <div class="box1">
-            <p>
-                <i>
-                    <b>
-                        <p>Ich bin von die Klasse 1CHIT </p>
-                        <p>Ich bin jetzt bei der Medientechnik Unterricht</p>
-                        <p>Zu erst habe ich in Sportschule in Klosterneuburg gelernt</p>
-                        <p>Dannach war isch in Politechnische Schule in Tulln geleitet</p>
-                        <p>In TGM möchte ich viel über Computer lernen</p>
-                        <p>Ich möchte auch verschidene Programiersprachen entwickeln</p>
-                        
-                    </b>
-                </i>
-            </p>
         </div>
-       
-        <br>
+    </nav>
 
-    <div class="flexbox1">
+    
+    <section id="home" class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Volodymyr Shchyrov</h1>
+                <p><strong>Klasse:</strong> 2CHIT</p>
+                <p>
+                    Mein erstes Jahr am TGM war sehr spannend. Ich habe viele neue Dinge im Bereich Computer und
+                    Medientechnik gelernt.
+                    Besonders gefallen haben mir die praktischen Übungen. Ich habe gelernt, wie Webseiten aufgebaut sind
+                    und wie HTML
+                    und CSS funktionieren. Außerdem habe ich im Team gearbeitet und neue Freunde kennengelernt.
+                </p>
 
-        <div class="flesEl1">
-            <h3>Meine Hobbies sind</h3>
-        <p>
-            <ul>
-                <li>Sport wie: Baskettball, Volleyball</li>
-                <li>Computerspiele z.B: Valorant, Dota 2</li>
-                <li>Etwas Neues lernen</li>
-                <li>Filme schauen</li>
-            </ul>
-        </div>
-        <div class="flexEl2">
-            <h3>Mein Lieblingsfilme</h3>
+                <h4>Was ich gelernt habe</h4>
+                <ul>
+                    <li>HTML & CSS Grundlagen</li>
+                    <li>Arbeiten mit Bootstrap</li>
+                    <li>Grundlagen Medientechnik</li>
+                    
+                </ul>
 
-            <ol type="1">
-                <li>Interstellar (2014)</li>
-                <li>Kung fu Panda 1-3</li>
-            </ol>
-        </p>
-        </div>
-    </div>
-        <br>
-        <br>
-        <h3 class="speise">Meine Lieblingsspeise</h3>
-        <div class="flexbox2">
-            
-            <div class="flexEl3">
-                <h3>Pizza</h3>
-                <p>Wichtigste:</p> <p>Teig</p> <p>Tomatensouce</p> <p>Käse</p>
-                <img src="img/Pizza_img.jpeg" width="250px" height="200px" alt="Photo of pizza">
-                
+                <p>
+                    Mich zeichnet besonders meine Motivation aus, Neues zu lernen. Ich bin hilfsbereit, sportlich und
+                    interessiere mich
+                    sehr für Technik und Computer.
+                </p>
             </div>
-            <div class="flexEl4">
-                <h3>Asiatische Wok Nudeln</h3>
-                <p>Wichtigste:</p> <p>Nudeln</p> <p>Gemüse</p> <p>Fleisch</p>
-                <img src="img/Wok_img.webp" width="250px" height="200px" alt="Photo of Wok">
-            </div>
-            
-
-            
         </div>
-        <hr>
-        <br>
+    </section>
+
+   
+    <section id="form" class="container my-5">
+        <h2>Kontaktformular</h2>
+        <form class="row g-3">
+            <div class="col-md-4">
+                <label for="anrede" class="form-label">Anrede</label>
+                <select id="anrede" class="form-select">
+                    <option>Herr</option>
+                    <option>Frau</option>
+                    <option>Divers</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="vorname" class="form-label">Vorname</label>
+                <input id="vorname" type="text" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label for="nachname" class="form-label">Nachname</label>
+                <input id="nachname" type="text" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">E-Mail</label>
+                <input id="email" type="email" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="telefon" class="form-label">Telefonnummer</label>
+                <input id="telefon" type="tel" class="form-control">
+            </div>
+            <div class="col-12"> 
+                <label for="betreff" class="form-label">Betreff</label>
+                <input id="betreff" type="text" class="form-control">
+            </div>
+            <div class="col-12">
+                <label for="anliegen" class="form-label">Anliegen</label>
+                <textarea id="anliegen" class="form-control" rows="4"></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Senden</button>
+                <button type="reset" class="btn btn-secondary">Löschen</button>
+            </div>
+        </form>
+    </section>
+
+    
+    <section id="projects" class="container my-5">
+        <h2 class="mb-4">Meine Projekte</h2>
+    
         
-       
+        <h4 class="mt-4">Webentwicklung</h4>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./img/Kontakaufnahme.png" class="card-img-top" alt="Kontakaufnahme">
+                    <div class="card-body">
+                        <h5 class="card-title">Kontaktaufnahme</h5>
+                        <p class="card-text">
+                            Kontaktaufnahme Webseite, wo kann man seine Daten eingeben
+                        </p>
+                        <a href="/html/Kontaktaufnahme.html" class="btn btn-primary">Open</a>
+                    </div>
+                </div>
+            </div>
+    
         
+        </div>
+    
+        
+        <h4 class="mt-5">Medientechnik</h4>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./img/Shchyrov_PortraitfotoGK.jpg" class="card-img-top" alt="Foto Projekt">
+                    <div class="card-body">
+                        <h5 class="card-title">PortraitfotoGK</h5>
+                        <p class="card-text">
+                            Fotobearbeitung und Bildgestaltung im MEDT-Unterricht.
+                        </p>
+                        <a href="./img/Shchyrov_PortraitfotoGK.jpg" class="btn btn-primary">Open</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./img/Shchyrov_ProduktfotoGK.jpg" class="card-img-top" alt="Foto Projekt">
+                    <div class="card-body">
+                        <h5 class="card-title">Produktfoto</h5>
+                        <p class="card-text">
+                            Foto-Werbung von meinem Produkt.
+                        </p>
+                        <a href="./img/Shchyrov_ProduktfotoGK.jpg" class="btn btn-primary">Open</a>
+                    </div>
+                </div>
+            </div>
 
-    </body>
+            
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
-
-
